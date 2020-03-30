@@ -1,0 +1,1001 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+.with-margin{
+    margin-bottom: -6px;
+    padding-left: 2px;
+}
+
+.with-margin-big{
+    margin-top: -114px;
+}
+
+.gallerija{
+    width: 100%;
+    background-color: black;
+}
+
+.sadalas{
+    float: left;
+    width: 10%;
+}
+
+.sadala{
+    background-color: blanchedalmond;
+}
+
+.col-md-4{
+    padding: 0;
+    margin: 0;
+}
+
+@media (min-width: 500px) {
+    .main{
+        background-image: url("/images/bg.png");
+        background-repeat: initial;
+        background-size: auto;
+        height: 3072px;
+        width: 100%;
+        float: left;
+    }
+
+    .feaure_text_right{
+        width: 100%;
+        height: 30%;
+        float: right;
+        background: rgba(0, 0, 0, .6);
+    }
+
+    .feaure_text_left{
+        width: 100%;
+        height: auto;
+        float: left;
+        background: rgba(0, 0, 0, .8);
+    }
+
+    .feature_rpg{
+        width: 100%;
+        height: 12.25%;
+        background-image: url(/images/info_classes.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .feature_characters{
+        width: 100%;
+        height: 12.25%;
+        background-image: url(/images/info_role_play.jpg);
+        background-position: top;
+        background-size: cover;
+    }
+
+    .feature-container{
+        width: 100%;
+        height: 100%;
+    }
+
+    h1{
+        color: whitesmoke;
+    }
+
+    h2{
+        font-size: 20px;
+        text-align: center;
+        color: #00787a;
+    }
+
+    .feature-content>p{
+        font-size: 14px;
+        text-align: center;
+        color: whitesmoke;
+    }
+
+    .info-text>p{
+        font-size: 14px;
+        text-align: center;
+        color: whitesmoke;
+    }
+
+    .map>p{
+        font-size: 10px;
+        font-weight: 100;
+        line-height: 15px;
+        text-align: center;
+        color: whitesmoke;
+    }
+
+    .logo{
+        background-image: url(/images/logo_bg.png);
+        background-size: cover;
+        background-position: center;        
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .logo>img{
+        width: 125px;
+        height: 62.5px;
+    }
+
+    .spacing{
+        width: 100;
+        padding-top: .5%;
+    }
+
+    .bg-0 {
+        background-image: url(/images/map_camp.jpg);
+    }
+      
+    .bg-1 {
+        background-image: url(/images/map_cross.jpg);
+    }
+      
+    .bg-2 {
+        background-image: url(/images/map_shroom_forest.jpg);
+    }   
+      
+    .bg-3 {
+        background-image: url(/images/map_temple.jpg);
+    }   
+
+    .map-text {
+        position: absolute;
+        color: whitesmoke;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 10px;
+        left: 0%;
+    }
+      
+    .maps {
+        position: absolute;
+        color: whitesmoke;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 15px;
+        transform: rotate(270deg);
+        bottom: 7.5%;
+        line-height: 17px;
+        letter-spacing: 0.3em;
+    }
+
+    .recent_maps{   
+        width: 102.5%;
+        height: 15%;
+    }
+
+    .apraksts{
+        font-size: 15px;
+        padding-top: 6%;
+        text-align: center;
+    }
+
+    .video{
+        text-align: center;
+    }
+
+    .videoklipi{
+        width: 100%;
+        height: auto;
+    }
+
+    .videoklips{
+        height: 90%;
+        width: auto;
+    }
+
+    .spacing_gallery{
+        padding-bottom: 10%;
+    }   
+
+    .sazina{
+        text-align: center;
+    }
+
+    h3{
+        color: whitesmoke;
+    }
+
+    .table{
+        font-style: none;
+    }
+}
+
+@media (min-width: 1366px){
+    .main{
+        background-image: url("/images/bg.png");
+        background-repeat: initial;
+        background-size: auto;
+        height: 3072px;
+        width: 100%;
+        float: left;
+    }
+
+    .feaure_text_right{
+        width: 50%;
+        height: 100%;
+        float: right;
+        background: rgba(0, 0, 0, 0.6);
+        padding-top: 1%;
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-bottom: 5%;
+    }
+
+    .feaure_text_left{
+        width: 50%;
+        height: 100%;
+        float: left;
+        background: rgba(0, 0, 0, 0.6);
+        padding-top: 1%;
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-bottom: 5%;
+    }
+
+    .feature_rpg{
+        width: 100%;
+        height: 12.25%;
+        background-image: url(/images/info_classes.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .feature_characters{
+        width: 100%;
+        height: 12.25%;
+        background-image: url(/images/info_role_play.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .faeture_classes{
+        width: 100%;
+        height: 12.5%;
+    }
+
+    .feature-container{
+        width: 100%;
+        height: 100%;
+    }
+
+    .feature-container>div{
+        font-size: 10px;
+        text-align: center;
+    } 
+
+    .recent_maps{   
+        width: 100.6%;
+        height: 25%;
+    }
+    
+    .map-container {   
+        background-size: cover;
+        background-position: center; 
+        width: 100%;
+        height: 100%;
+        border-color: black;
+        border-width: 2px;   
+        border-style: solid;    
+        box-shadow: inset 80px 270px 35px -7px rgba(0,0,0,0.6);  
+    }
+      
+    .bg-0 {
+        background-image: url(/images/map_camp.jpg);
+    }
+      
+    .bg-1 {
+        background-image: url(/images/map_cross.jpg);
+    }
+      
+    .bg-2 {
+        background-image: url(/images/map_shroom_forest.jpg);
+    }   
+      
+    .bg-3 {
+        background-image: url(/images/map_temple.jpg);
+    }
+
+    .feature-content>p{
+        font-size: 15px;
+        text-align: left;
+        margin-top: .5%;
+    }
+
+    .feature-content>h2{
+        text-align: left;
+    }
+
+    .info>h1{
+        margin-top: .5%;
+    }
+
+    .info-text>p{
+        text-align: right;
+        margin-top: .5%;
+    }
+
+    .info-text>h2{
+        text-align: right;
+    }
+
+    .navbar-brand{
+        text-align: center;
+        font-style: none;
+        font-size: 15px;
+        color: whitesmoke;
+    }
+
+    .navbar{
+        width: 100%;
+    }   
+
+    .feature-content>p{
+        font-size: 15px;
+        text-align: left;
+        color: whitesmoke;
+    }
+
+    .info-text>p{
+        font-size: 15px;
+        text-align: right;
+        color: whitesmoke;
+    }
+
+    .map>p{
+        font-size: 15px;
+        line-height: 30px;
+        text-align: center;
+        color: whitesmoke;
+    }
+
+    h1{
+        color: whitesmoke;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    h2{
+        margin-top: 20%;
+        color: #00787a;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .logo{
+        background-image: url(/images/logo_bg.png);
+        background-size: cover;
+        background-position: center;        
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .logo>img{
+        width: 125px;
+        height: 67.5px;
+    }
+
+    .spacing{
+        width: 100;
+        padding-top: .5%;
+    }  
+
+    .map-text {
+        position: absolute;
+        color: whitesmoke;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 10px;
+        left: 0%;
+        top: 2.5%;
+      }
+      
+      .maps {
+        line-height: 35px;
+        position: absolute;
+        color: whitesmoke;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 20px;
+        transform: rotate(270deg);
+        bottom: 22%;
+        left: -30%;
+        letter-spacing: 0.3em;
+      }
+
+      .apraksts{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .video{
+        text-align: center;
+    }
+
+    .videoklipi{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        width: 100%;
+    }
+
+    .videoklips{
+        height: 320px;
+        width: 360px;
+    }
+
+    .spacing_gallery{
+        padding-bottom: 2%;
+    }
+
+    .galerija_link{
+        font-style: none;
+    }
+
+    .table_img{
+        max-width: 400px;
+        max-height: 600px;
+    }
+
+    h3{
+        color: whitesmoke;
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 40px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .main{
+        background-image: url("/images/bg.png");
+        background-repeat: initial;
+        background-size: auto;
+        height: 4320px;
+        width: 100%;
+        float: left;
+    }
+
+    .feaure_text_right{
+        width: 50%;
+        height: 100%;
+        float: right;
+        background: rgba(0, 0, 0, 0.6);
+        padding-top: 1%;
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-bottom: 5%;
+    }
+
+    .feaure_text_left{
+        width: 50%;
+        height: 100%;
+        float: left;
+        background: rgba(0, 0, 0, 0.6);
+        padding-top: 1%;
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-bottom: 5%;
+    }
+
+    .feature_rpg{
+        width: 100%;
+        height: 12.25%;
+        background-image: url(/images/info_classes.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .feature_characters{
+        width: 100%;
+        height: 12.25%;
+        background-image: url(/images/info_role_play.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .faeture_classes{
+        width: 100%;
+        height: 12.5%;
+    }
+
+    .feature-container{
+        width: 100%;
+        height: 100%;
+    }
+
+    .feature-container>div{
+        font-size: 32px;
+        text-align: center;
+    } 
+
+    .recent_maps{   
+        width: 100.6%;
+        height: 25%;
+    }
+    
+    .map-container {   
+        background-size: cover;
+        background-position: center; 
+        width: 100%;
+        height: 100%;
+        border-color: black;
+        border-width: 2px;   
+        border-style: solid;    
+        box-shadow: inset 80px 270px 35px -7px rgba(0,0,0,0.6);  
+    }
+      
+    .bg-0 {
+        background-image: url(/images/map_camp.jpg);
+    }
+      
+    .bg-1 {
+        background-image: url(/images/map_cross.jpg);
+    }
+      
+    .bg-2 {
+        background-image: url(/images/map_shroom_forest.jpg);
+    }   
+      
+    .bg-3 {
+        background-image: url(/images/map_temple.jpg);
+    }
+
+    .feature-content>p{
+        text-align: left;
+        margin-top: 2.5%;
+    }
+
+    .feature-content>h2{
+        text-align: left;
+    }
+
+    .info>h1{
+        margin-top: 2.5%;
+    }
+
+    .info-text>p{
+        text-align: right;
+        margin-top: 2.5%;
+    }
+
+    .info-text>h2{
+        text-align: right;
+    }
+
+    .navbar-brand{
+        text-align: center;
+        font-style: none;
+        font-size: 20px;
+        color: whitesmoke;
+    }
+
+    .navbar{
+        width: 100%;
+    }   
+
+    .feature-content>p{
+        font-size: 20px;
+        text-align: left;
+        color: whitesmoke;
+    }
+
+    .info-text>p{
+        font-size: 20px;
+        text-align: right;
+        color: whitesmoke;
+    }
+
+    .map>p{
+        font-size: 17.5px;
+        line-height: 30px;
+        text-align: center;
+        color: whitesmoke;
+    }
+
+    h1{
+        color: whitesmoke;
+        font-size: 35px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    h2{
+        margin-top: 20%;
+        color: #00787a;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .logo{
+        background-image: url(/images/logo_bg.png);
+        background-size: cover;
+        background-position: center;        
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .logo>img{
+        width: 250px;
+        height: 125px;
+    }
+
+    .spacing{
+        width: 100;
+        padding-top: .5%;
+    }  
+
+    .map-text {
+        position: absolute;
+        color: whitesmoke;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 14px;
+        left: 0%;
+        top: 5%;
+      }
+      
+      .maps {
+        line-height: 35px;
+        position: absolute;
+        color: whitesmoke;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 25px;
+        transform: rotate(270deg);
+        bottom: 22%;
+        left: -32.5%;
+        letter-spacing: 0.3em;
+      }
+
+      .apraksts{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .video{
+        text-align: center;
+    }
+
+    .videoklipi{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        width: 100%;
+    }
+
+    .videoklips{
+        height: 380px;
+        width: 540px;
+    }
+
+    .spacing_gallery{
+        padding-bottom: 2%;
+    }
+
+    .galerija_link{
+        font-style: none;
+    }
+
+    h3{
+        color: whitesmoke;
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 95px;
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 2560px) {
+    .main{
+        background-image: url("/images/bg.png");
+        background-repeat: initial;
+        background-size: auto;
+        height: 5760px;
+        width: 100%;
+        float: left;
+    }
+
+    .feaure_text_right{
+        width: 50%;
+        height: 100%;
+        float: right;
+        background: rgba(0, 0, 0, 0.6);
+        padding-top: 1%;
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-bottom: 5%;
+    }
+
+    .feaure_text_left{
+        width: 50%;
+        height: 100%;
+        float: left;
+        background: rgba(0, 0, 0, 0.8);
+        padding-top: 1%;
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-bottom: 5%;
+    }
+
+    .feature_rpg{
+        width: 100%;
+        height: 12.25%;
+        background-image: url(/images/info_classes.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .feature_characters{
+        width: 100%;
+        height: 12.25%;
+        background-image: url(/images/info_role_play.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .faeture_classes{
+        width: 100%;
+        height: 12.5%;
+    }
+
+    .feature-container{
+        width: 100%;
+        height: 100%;
+    }
+
+    .feature-container>div{
+        font-size: 32px;
+        text-align: center;
+    } 
+
+    .recent_maps{   
+        width: 100.6%;
+        height: 1365px;
+    }
+    
+    .map-container {   
+        background-size: cover;
+        background-position: center; 
+        width: 100%;
+        height: 100%;
+        border-color: black;
+        border-width: 2px;   
+        border-style: solid;    
+        box-shadow: inset 80px 270px 35px -7px rgba(0,0,0,0.6);  
+    }
+      
+    .bg-0 {
+        background-image: url(/images/map_camp.jpg);
+    }
+      
+    .bg-1 {
+        background-image: url(/images/map_cross.jpg);
+    }
+      
+    .bg-2 {
+        background-image: url(/images/map_shroom_forest.jpg);
+    }   
+      
+    .bg-3 {
+        background-image: url(/images/map_temple.jpg);
+    }
+
+    .feature-content>p{
+        text-align: left;
+        margin-top: 2.5%;
+    }
+
+    .feature-content>h2{
+        text-align: left;
+    }
+
+    .info>h1{
+        margin-top: 2.5%;
+    }
+
+    .info-text>p{
+        text-align: right;
+        margin-top: 2.5%;
+    }
+
+    .info-text>h2{
+        text-align: right;
+    }
+
+    .navbar-brand{
+        text-align: center;
+        font-style: none;
+        font-size: 20px;
+        color: whitesmoke;
+    }
+
+    .navbar{
+        width: 100%;
+    }   
+
+    .feature-content>p{
+        font-size: 20px;
+        text-align: left;
+        color: whitesmoke;
+    }
+
+    .info-text>p{
+        font-size: 20px;
+        text-align: right;
+        color: whitesmoke;
+    }
+
+    .map>p{
+        font-size: 20px;
+        line-height: 35px;
+        text-align: center;
+        color: whitesmoke;
+    }
+
+    h1{
+        color: whitesmoke;
+        font-size: 45px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    h2{
+        margin-top: 20%;
+        color: #00787a;
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .logo{
+        background-image: url(/images/logo_bg.png);
+        background-size: cover;
+        background-position: center;        
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .logo>img{
+        width: 250px;
+        height: 125px;
+    }
+
+    .spacing{
+        width: 100;
+        padding-top: .5%;
+    }
+
+    .social-media{
+        height: 100%;
+        width: 50%;
+        background-color: sienna;
+    }
+
+    .personal-contacts{
+        height: 100%;
+        width: 50%;
+        background-color: silver;
+    }   
+
+    .map-text {
+        position: absolute;
+        color: whitesmoke;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 14px;
+        top: 4%;
+        left: 0%;
+      }
+      
+      .maps {
+        height: auto;
+        position: absolute;
+        color: whitesmoke;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 25px;
+        transform: rotate(270deg);
+        bottom: 21.5%;
+        left: -34%;
+        letter-spacing: 0.3em;
+      }
+
+    .apraksts{
+        font-size: 30px;
+        padding-bottom: 2%;
+        text-align: center;
+    }
+
+    .video{
+        text-align: center;
+    }
+
+    .videoklipi{
+        background-color: rgb(0 , 0 , 0, .7);
+        padding-top: 2%;
+        width: 100%;
+    }
+
+    .videoklips{
+        height: 460px;
+        width: 740px;
+    }
+
+    .spacing_gallery{
+        padding-bottom: 2%;
+    }
+
+    .galerija_link{
+        font-style: none;
+    }
+
+    h3{
+        color: whitesmoke;
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 170px;
+        font-size: 40px;
+    }
+}
+
+.galleria{
+    justify-content: center;
+    text-align: center;
+}
+
+.table{
+    width: fit-content;
+    object-fit: cover;
+}
+
+th {
+    background-color: #00787a;
+    color: white;
+} 
+
+td {
+    background-color: rgb(0 , 0 , 0, .7);
+}
+
+.google{
+    width: 100%;
+    height: 100%;
+}
+
+.bilzu_kopa {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2.5%;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .bildes {
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 10px 10px 0;
+  }
+  
+  .bildes>div>a>img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  .main2{
+        background-image: url("/images/bg.png");
+        background-repeat: initial;
+        background-size: auto;
+        height: auto;
+        width: 100%;
+        float: left;
+  }
+
+  .sadala{
+      border-radius: 0 100% 100% 0;
+      border: 1px solid black;
+      background-color: rgb(0 , 0 , 0, .7);
+  }
+
+  .sadala_izveleta{
+    border-radius: 0 100% 100% 0;
+    border: 1px solid black;
+    background-color: rgba(255, 0, 0, 0.7);
+  }
