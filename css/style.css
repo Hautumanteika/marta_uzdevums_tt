@@ -846,7 +846,7 @@ html {
     }
 
     .logo{
-        background-image: url("images/logo_bg.png");
+        background-image: url("logo_bg.png");
         background-size: cover;
         background-position: center;        
         text-align: center;
