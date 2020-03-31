@@ -967,8 +967,7 @@ td {
     flex-wrap: wrap;
     padding-left: 2.5%;
   }
-  
-  /* Create four equal columns that sits next to each other */
+
   .bildes {
     flex: 33%;
     max-width: 33%;
