@@ -687,7 +687,7 @@ html {
 
 @media (min-width: 2560px) {
     .main{
-        background-image: url('images/bg.png');
+        background-image: url("/images/bg.png");
         background-repeat: initial;
         background-size: auto;
         height: 5760px;
@@ -720,7 +720,7 @@ html {
     .feature_rpg{
         width: 100%;
         height: 12.25%;
-        background-image: url("images/info_classes.jpg");
+        background-image: url(/images/info_classes.jpg);
         background-position: center;
         background-size: cover;
     }
@@ -728,7 +728,7 @@ html {
     .feature_characters{
         width: 100%;
         height: 12.25%;
-        background-image: url("images/info_role_play.jpg");
+        background-image: url(/images/info_role_play.jpg);
         background-position: center;
         background-size: cover;
     }
@@ -765,19 +765,19 @@ html {
     }
       
     .bg-0 {
-        background-image: url("images/map_camp.jpg");
+        background-image: url(/images/map_camp.jpg);
     }
       
     .bg-1 {
-        background-image: url("images/map_cross.jpg");
+        background-image: url(/images/map_cross.jpg);
     }
       
     .bg-2 {
-        background-image: url("images/map_shroom_forest.jpg");
+        background-image: url(/images/map_shroom_forest.jpg);
     }   
       
     .bg-3 {
-        background-image: url("images/map_temple.jpg");
+        background-image: url(/images/map_temple.jpg);
     }
 
     .feature-content>p{
@@ -846,7 +846,7 @@ html {
     }
 
     .logo{
-        background-image: url("logo_bg.png");
+        background-image: url(/images/logo_bg.png);
         background-size: cover;
         background-position: center;        
         text-align: center;
@@ -980,7 +980,7 @@ td {
   }
 
   .main2{
-        background-image: url("https://raw.githubusercontent.com/Hautumanteika/marta_uzdevums_tt/master/images/bg.png");
+        background-image: url("/images/bg.png");
         background-repeat: initial;
         background-size: auto;
         height: auto;
