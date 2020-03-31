@@ -687,7 +687,7 @@ html {
 
 @media (min-width: 2560px) {
     .main{
-        background-image: url("images/bg.png");
+        background-image: url("https://github.com/Hautumanteika.github.io/images/bg.png");
         background-repeat: initial;
         background-size: auto;
         height: 5760px;
